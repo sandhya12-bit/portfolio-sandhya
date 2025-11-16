@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact_form.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="portfolio.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html#service">Service</a>
+        <a href="contact_form.html" class="active">Contact</a>
+    </nav>
+
+    <form id="contactForm" class="contact-container">
+
+        <h2 class="form-title">Contact Me</h2>
+
+        <label for="name">Name:</label>
+        <input type="text" class="form-field fade-in" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" class="form-field fade-in" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" class="form-field fade-in" name="message" placeholder="Write your message..." rows="5" required></textarea>
+
+        <input type="submit" class="submit-btn slide-up" value="Submit">
+
+    </form>
+
+</body>
+</html>
